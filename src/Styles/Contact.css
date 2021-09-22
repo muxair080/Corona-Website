@@ -1,0 +1,101 @@
+
+.ContactPage{
+    min-height: 81.2vh;
+    margin: 10px 50px;
+    display: block;
+    margin: 20px 90px;
+}
+.Contact-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact-heading  h1{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-field label{ 
+ font-size: 2rem;
+ font-weight: bolder;
+}
+.input-field input, textarea{
+  width: 70%;
+  resize: none;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+  outline: none;
+  background-color:transparent;
+  margin-left: 20px;
+}
+textarea{
+    border: 2px solid black;
+    margin-left: 0px;
+}
+
+.btns{
+    margin-top: 10px;
+    display: flex;
+}
+.btns input{
+  margin-left: 10px;
+  width: 100px;
+}
+.btns input:hover{
+  background-color: blue;
+}
+
+.error-msg{
+  color: red;
+}
+#subbmission-msg{
+  display: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 699px){
+  .Contact-heading  h1{
+    font-size: 4rem;
+
+}
+  .input-field label{ 
+    font-size: 1.5rem;
+   }
+  .input-field input, textarea{
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 499px){
+  .Contact-heading  h1{
+    font-size: 3rem;
+
+}
+  .input-field label{ 
+    font-size: 1.5rem;
+   }
+  .input-field input, textarea{
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 350px){
+  .Contact-heading  h1{
+    font-size: 2rem;
+  
+}
+  .input-field label{ 
+    font-size: 1.3rem;
+   }
+  .input-field input, textarea{
+    font-size: 1rem;
+  }
+}

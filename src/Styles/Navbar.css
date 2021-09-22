@@ -1,0 +1,12 @@
+
+
+
+input{
+    width: 50vw;
+    position: relative;
+    right: 20px;
+    padding: 5px 10px;
+    outline:none;
+    border: none;
+   border-radius: 10px;
+}
