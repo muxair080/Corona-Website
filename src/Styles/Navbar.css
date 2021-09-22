@@ -2,11 +2,17 @@
 
 
 input{
-    width: 50vw;
+    min-width: 50vw;
     position: relative;
     right: 20px;
     padding: 5px 10px;
     outline:none;
     border: none;
    border-radius: 10px;
+}
+@media (max-width :900px){
+    input{
+        width: 80vw;
+        font-size: 0.9rem;
+    }
 }

@@ -26,7 +26,7 @@ const Navbar = (props) => {
               </li>
             </ul>
             <form className="">
-              <input className=" me-2" type="search" placeholder="🔍 Search Country Name Here" aria-label="Search" onChange = {(e) => {props.value(e.target.value)}}  />
+              <input className=" me-2 setwidth" type="search" placeholder="🔍 Search Country Name Here" aria-label="Search" onChange = {(e) => {props.value(e.target.value)}}  />
             </form>
           </div>
         </div>
